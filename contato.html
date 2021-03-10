@@ -4,28 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Contato</title>
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
+    <nav>
+        <ul class="navbar p-30">
+            <li class="p-30" ><a href="index.html">Home</a></li>
+            <li class="p-30"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="p-30">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome">
+            <br>
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="assunto">Assunto:</label><br>
+            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <button>Enviar</button>
+        </div>
+        <div class="p-30">
+            <h2>Endereço:</h2>
+            <p>Avenida Paulista, 2000</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.267440024206!2d-46.66106544997306!3d-23.558836467307835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd060ea13b%3A0x7c535e9d9784e6c2!2sAv.%20Paulista%2C%202000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200!5e0!3m2!1spt-BR!2sbr!4v1615307718473!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
 
-    <label for="nome">Nome:</label><br>
-    <input type="text" id="nome">
-    <br>
-    <br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email">
-    <br>
-    <br>
-    <label for="assunto">Assunto:</label><br>
-    <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-
-    <h2>Endereço:</h2>
-    <p>Avenida Paulista, 2000</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.267440024206!2d-46.66106544997306!3d-23.558836467307835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd060ea13b%3A0x7c535e9d9784e6c2!2sAv.%20Paulista%2C%202000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200!5e0!3m2!1spt-BR!2sbr!4v1615307718473!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+    <footer>
+        <div class="container p-30">
+            <a href="https://instagram.com" target="_blank"><img class="logos p-30" src="assets/img/instagram.png" alt="Icone instagram"></a>
+            <a href="https://facebook.com" target="_blank"><img class="logos p-30" src="assets/img/facebook.png" alt="Icone facebook"></a>
+            <a href="https://linkedin.com" target="_blank"><img class="logos p-30" src="assets/img/linkedin.png" alt="Icone linkedin"></a>
+        </div>
+    </footer>
 </body>
 </html>
